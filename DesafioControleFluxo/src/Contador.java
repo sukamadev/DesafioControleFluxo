@@ -10,7 +10,7 @@ public class Contador {
 		int parametroDois = terminal.nextInt();
 
 		try {
-			
+
 			//chamando o método contendo a lógica de contagem
 			contar(parametroUm, parametroDois);
 
@@ -32,7 +32,7 @@ public class Contador {
 
         for (int i = 1; i <= contagem; i++){
 
-            System.out.println("Imprimindo o número " + i);
+            System.out.println("Fazendo a contagem... " + i);
         }
 
 
